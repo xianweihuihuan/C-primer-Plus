@@ -3,7 +3,8 @@
 
 int main(int argc,char*argv[]){
     char a[1000];
-    scanf("%s",a);
+    int i = 0;
+    scanf("%[^\n]",a);
     if(argc>1){
     if(strcmp("-u",argv[1])==0){
         for(int i = 0;i<1000;i++){
