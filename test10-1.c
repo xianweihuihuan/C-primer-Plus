@@ -10,7 +10,7 @@ int main(){
         arr2[i] = arr1[2+i]; 
     }
     for(int i = 0;i<3;i++){
-        printf("%d",arr2[i]);
+        printf("%d ",arr2[i]);
     }
     return 0;
 }
