@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<math.h>
-
-int main(int argc,char *argv[]){
-    printf("The square root of %s is %lf\n",argv[1],sqrt((double)argv[1]));
-}
+#define data 15
+#define SPACE  
+#define PS() printf(" ");
+#define BIG(x) x+=3;
+#define SUMSQ(x,y) ((x*x)+(y*y))
